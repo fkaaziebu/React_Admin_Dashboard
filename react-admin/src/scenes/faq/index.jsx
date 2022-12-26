@@ -7,7 +7,104 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { tokens } from "../../theme";
 
 const FAQ = () => {
+    const theme = useTheme();
+    const colors = tokens(theme.palette.mode);
 
+    return (
+        <Box m="20px">
+            <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
+
+            <Accordion>
+                <AccordionSummary expand={<ExpandMoreIcon />}>
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        An Import question
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Asperiores ab tempore obcaecati quam repellat 
+                         ducimus omnis voluptas animi! Quibusdam voluptatem voluptatibus ullam sed quia iusto sunt perspiciatis! Cumque, autem exercitationem.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary expand={<ExpandMoreIcon />}>
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        An Import question
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Asperiores ab tempore obcaecati quam repellat 
+                         ducimus omnis voluptas animi! Quibusdam voluptatem voluptatibus ullam sed quia iusto sunt perspiciatis! Cumque, autem exercitationem.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary expand={<ExpandMoreIcon />}>
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        An Import question
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Asperiores ab tempore obcaecati quam repellat 
+                         ducimus omnis voluptas animi! Quibusdam voluptatem voluptatibus ullam sed quia iusto sunt perspiciatis! Cumque, autem exercitationem.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary expand={<ExpandMoreIcon />}>
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        An Import question
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Asperiores ab tempore obcaecati quam repellat 
+                         ducimus omnis voluptas animi! Quibusdam voluptatem voluptatibus ullam sed quia iusto sunt perspiciatis! Cumque, autem exercitationem.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary expand={<ExpandMoreIcon />}>
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        An Import question
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Asperiores ab tempore obcaecati quam repellat 
+                         ducimus omnis voluptas animi! Quibusdam voluptatem voluptatibus ullam sed quia iusto sunt perspiciatis! Cumque, autem exercitationem.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary expand={<ExpandMoreIcon />}>
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        An Import question
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Asperiores ab tempore obcaecati quam repellat 
+                         ducimus omnis voluptas animi! Quibusdam voluptatem voluptatibus ullam sed quia iusto sunt perspiciatis! Cumque, autem exercitationem.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+        </Box>
+    )
 }
 
 export default FAQ;

@@ -15,7 +15,7 @@ const FAQ = () => {
             <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
 
             <Accordion>
-                <AccordionSummary expand={<ExpandMoreIcon />}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An Import question
                     </Typography>
@@ -30,7 +30,7 @@ const FAQ = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expand={<ExpandMoreIcon />}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An Import question
                     </Typography>
@@ -45,7 +45,7 @@ const FAQ = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expand={<ExpandMoreIcon />}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An Import question
                     </Typography>
@@ -60,7 +60,7 @@ const FAQ = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expand={<ExpandMoreIcon />}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An Import question
                     </Typography>
@@ -75,7 +75,7 @@ const FAQ = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expand={<ExpandMoreIcon />}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An Import question
                     </Typography>
@@ -90,7 +90,7 @@ const FAQ = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expand={<ExpandMoreIcon />}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An Import question
                     </Typography>

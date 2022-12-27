@@ -9,7 +9,7 @@ const Pie = () => {
             <Box
                 display="grid"
                 gridTemplateColumns="repeat(12, 1fr)"
-                gridAutoRows="100vh"
+                gridAutoRows="75vh"
                 gap="20px"
             >
                 <Box gridColumn="span 12" display="flex" alignItems="center" justifyContent="center">

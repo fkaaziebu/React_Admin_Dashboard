@@ -6,8 +6,15 @@ const Bar = () => {
     return (
         <Box m="20px">
             <Header title="Bar Chart" subtitle="Simple Bar Chart" />
-            <Box height="75vh">
-                <BarChart />
+            <Box
+                display="grid"
+                gridTemplateColumns="repeat(12, 1fr)"
+                gridAutoRows="100vh"
+                gap="20px"
+            >
+                <Box gridColumn="span 12" display="flex" alignItems="center" justifyContent="center">
+                    <BarChart />
+                </Box>
             </Box>
         </Box>
     )

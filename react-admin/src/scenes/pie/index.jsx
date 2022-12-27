@@ -6,8 +6,15 @@ const Pie = () => {
     return (
         <Box m="20px">
             <Header title="Pie Chart" subtitle="Simple Pie Chart" />
-            <Box height="75vh">
-                <PieChart />
+            <Box
+                display="grid"
+                gridTemplateColumns="repeat(12, 1fr)"
+                gridAutoRows="100vh"
+                gap="20px"
+            >
+                <Box gridColumn="span 12" display="flex" alignItems="center" justifyContent="center">
+                    <PieChart />
+                </Box>
             </Box>
         </Box>
     )

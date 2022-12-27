@@ -6,8 +6,15 @@ const Line = () => {
     return (
         <Box m="20px">
             <Header title="Line Chart" subtitle="Simple Line Chart" />
-            <Box height="75vh">
-                <LineChart />
+            <Box
+                display="grid"
+                gridTemplateColumns="repeat(12, 1fr)"
+                gridAutoRows="100vh"
+                gap="20px"
+            >
+                <Box gridColumn="span 12" display="flex" alignItems="center" justifyContent="center">
+                    <LineChart />
+                </Box>
             </Box>
         </Box>
     )

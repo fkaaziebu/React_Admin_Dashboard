@@ -14,7 +14,7 @@ const FAQ = () => {
         <Box m="20px">
             <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
 
-            <Accordion>
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An Import question
@@ -29,10 +29,10 @@ const FAQ = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
-                        An Import question
+                        An Important question
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -44,10 +44,10 @@ const FAQ = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
-                        An Import question
+                        Another Important question
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -59,10 +59,10 @@ const FAQ = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
-                        An Import question
+                        Your favorite question
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -74,10 +74,10 @@ const FAQ = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
-                        An Import question
+                        Some random Question
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -89,10 +89,10 @@ const FAQ = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion>
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography color={colors.greenAccent[500]} variant="h5">
-                        An Import question
+                        The Final question
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>

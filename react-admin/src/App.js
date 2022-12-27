@@ -25,7 +25,9 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
-          <SideBar />
+          <div className="sidebar">
+            <SideBar />
+          </div>
           <main className='content'>
             <TopBar />
             <Routes>

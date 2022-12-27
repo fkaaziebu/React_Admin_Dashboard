@@ -6,8 +6,15 @@ const Geography = () => {
     return (
         <Box m="20px">
             <Header title="Geography Chart" subtitle="Simple Geography Chart" />
-            <Box height="75vh">
-                <GeographyChart />
+            <Box
+                display="grid"
+                gridTemplateColumns="repeat(12, 1fr)"
+                gridAutoRows="100vh"
+                gap="20px"
+            >
+                <Box gridColumn="span 12" display="flex" alignItems="center" justifyContent="center">
+                    <GeographyChart />
+                </Box>
             </Box>
         </Box>
     )

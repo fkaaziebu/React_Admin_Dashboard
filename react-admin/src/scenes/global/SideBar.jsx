@@ -21,8 +21,14 @@ import { Timeline, TimelineOutlined } from "@mui/icons-material";
 const Item = ({ title, to, icon, selected, setSelected }) => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
+
+    const handleClick = (title) => {
+        setSelected(title)
+        
+    }
+
     return (
-        <MenuItem active={selected === title} style={{ color: colors.grey[100] }} onClick={() => setSelected(title)} icon={icon}>
+        <MenuItem active={selected === title} style={{ color: colors.grey[100] }} onClick={() => handleClick(title)} icon={icon}>
             <Typography>{title}</Typography>
             <Link to={to} />
         </MenuItem>
